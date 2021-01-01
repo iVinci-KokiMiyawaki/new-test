@@ -25,41 +25,132 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <div class="main">
+  <div class="contents">
     <nav>
+      <div class="logo">
+        <img src="img/logo.png" alt="">
+      </div>
       <ul class="nav-list">
-        <li class="nav-list-item">
-          <a href="/about" class="link">企業情報</a>
+        <li class="list-item">
+          <a href="./company.html" class="link">企業情報</a>
         </li>
-        <li class="nav-list-item">
+        <li class="list-item">
           <a href="/works" class="link">事業内容</a>
         </li>
-        <li class="nav-list-item">
+        <li class="list-item">
           <a href="/works" class="link">採用情報</a>
         </li>
-        <li class="nav-list-item">
-          <a href="/works" class="link">エンジニアブログ</a>
+        <li class="list-item">
+          <a href="/works" class="link">テックブログ</a>
         </li>
-        <li class="nav-list-item">
+        <li class="list-contact">
           <a href="/works" class="link">お問い合わせ</a>
         </li>
       </ul>
     </nav>
     <div class="container">
-      <section id="top" class="top">
-        <p>企業情報</p>
-        <img src="/img/top.jpg" alt="">
+      <div id="main" class="main">
+        <img src="img/top.png" alt="">
+        <div class="header">
+          <p class="en">Connect Future</p>
+          <p class="subject">人と人をつなぐ、</p>
+          <p class="subject">未来へ、つなぐ。</p>
+          <p class="sub">ここにサブテキスト</p>
+        </div>
+      </div>
+      <div id="top" class="top">
+        <img src="img/top.png" alt="">
+        <div class="header">
+          <p class="en">COMPANY</p>
+          <p class="ja">企業情報</p>
+        </div>
+      </div>
+      <section id="blog">
+        <ul>
+          <li class="article">
+            <img src="/img/thumbnail.jpg" alt="" class="thumbnail">
+            <div class="header">
+              <p class="tag">お知らせ</p>
+              <p class="date">2020.12.12</p>
+            </div>
+            <div class="title">
+              <p>ここにテキスト</p>
+            </div>
+          </li>
+          <li class="article">
+            <img src="/img/thumbnail.jpg" alt="" class="thumbnail">
+            <div class="header">
+              <p class="tag">お知らせ</p>
+              <p class="date">2020.12.12</p>
+            </div>
+            <div class="title">
+              <p>ここにテキスト</p>
+            </div>
+          </li>
+          <li class="article">
+            <img src="/img/thumbnail.jpg" alt="" class="thumbnail">
+            <div class="header">
+              <p class="tag">お知らせ</p>
+              <p class="date">2020.12.12</p>
+            </div>
+            <div class="title">
+              <p>ここにテキスト</p>
+            </div>
+          </li>
+          <li class="article">
+            <img src="/img/thumbnail.jpg" alt="" class="thumbnail">
+            <div class="header">
+              <p class="tag">お知らせ</p>
+              <p class="date">2020.12.12</p>
+            </div>
+            <div class="title">
+              <p>ここにテキスト</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section id="service" class="section"></section>
+      <section id="service" class="section">
+        <div class="header">
+          <p class="en">Service</p>
+          <p class="ja">確かな実績と技術力で、お客様のビジネスサポートいたします。</p>
+        </div>
+        <div class="content">
+          <div class="category">
+            <div class="icon">
+              <img src="/img/system01.png" alt="">
+            </div>
+            <p class="header">業務システム開発</p>
+            <p class="text">ここにテキストここにテキストここにテキストここにテキスト</p>
+          </div>
+          <div class="category">
+            <div class="icon">
+              <img src="/img/system02.png" alt="">
+            </div>
+            <p class="header">WEBシステム開発</p>
+            <p class="text">ここにテキストここにテキストここにテキストここにテキスト</p>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="button">
+            <p class="text">事業内容 ＞</p>
+          </div>
+        </div>
       </section>
       <section id="philosophy" class="section">
-        <p class="ja">企業理念</p>
-        <p class="en">philosophy</p>
+        <div class="header">
+          <p class="ja">企業理念</p>
+          <p class="en">philosophy</p>
+        </div>
         <div class="content">
           <p>ここにテキスト</p>
         </div>
       </section>
       <section id="message" class="section">
-        <p class="ja">代表挨拶</p>
-        <p class="en">message</p>
+        <div class="header">
+          <p class="ja">代表挨拶</p>
+          <p class="en">message</p>
+        </div>
         <div class="content">
           <div class="text">
             <p>ここにテキスト</p>
@@ -70,8 +161,10 @@
         </div>
       </section>
       <section id="company" class="section">
-        <p class="ja">会社概要</p>
-        <p class="en">company</p>
+        <div class="header">
+          <p class="ja">会社概要</p>
+          <p class="en">company</p>
+        </div>
         <div class="content">
           <div class="text">
             <p>ここにテキスト</p>
@@ -79,8 +172,10 @@
         </div>
       </section>
       <section id="history" class="section">
-        <p class="ja">沿革</p>
-        <p class="en">history</p>
+        <div class="header">
+          <p class="ja">沿革</p>
+          <p class="en">history</p>
+        </div>
         <div class="content">
           <div class="text">
             <p>ここにテキスト</p>
@@ -88,8 +183,10 @@
         </div>
       </section>
       <section id="access" class="section">
-        <p class="ja">アクセス</p>
-        <p class="en">access</p>
+        <div class="header">
+          <p class="ja">アクセス</p>
+          <p class="en">access</p>
+        </div>
         <div class="content">
           <div class="text">
             <p>ここにテキスト</p>
@@ -100,7 +197,25 @@
         </div>
       </section>
       <footer>
-        <div></div>
+        <div class="footer-left">
+          <p>〒101-0054</p>
+          <p>東京都千代田区神田錦町3丁目12-10</p>
+          <p>神田竹尾ビル8階</p>
+          <p>TEL: 03-5829-6850</p>
+          <p>FAX: 03-5829-6851</p>
+        </div>
+        <div class="footer-right">
+          <div class="pages">
+            <p>企業情報</p>
+            <p>事業内容</p>
+            <p>採用情報</p>
+            <p>テックブログ</p>
+          </div>
+          <div class="security">
+            <p>プライバシーボリシー</p>
+            <p>情報セキュリティ基本方針</p>
+          </div>
+        </div>
       </footer>
     </div>
   </div>
